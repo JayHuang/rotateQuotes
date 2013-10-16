@@ -2,10 +2,10 @@
 	$.fn.rotateQuotes = function(options) {
 		'use strict';
 
-		var settings   		= $.extend({}, $.fn.rotateQuotes.defaults, options);
-		var quotes     		= $(this);
-		var firstQuote 		= quotes.first();
-		var lastQuote  		= quotes.last();
+		var settings = $.extend({}, $.fn.rotateQuotes.defaults, options);
+		var quotes = $(this);
+		var firstQuote = quotes.first();
+		var lastQuote = quotes.last();
 		var remainingQuotes = [];
 		var nextQuote;
 		var interval; // For animation
@@ -66,9 +66,9 @@
 	};
 
 	$.fn.rotateQuotes.defaults = {
-		speed: 		700, 
-		delay: 		5000,
+		speed: 700, 
+		delay: 5000,
 		hoverpause: false,
-		random: 	false
+		random: false
 	}
 })(jQuery);
