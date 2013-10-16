@@ -5,7 +5,7 @@ jQuery plugin to rotate quotes or testimonials on a website (but feel free to us
 ###How to use the plugin
 
 **Note:** As this is a jQuery plugin, you will need to include jQuery prior to using this plugin.
-See [index.html](https://github.com/JayHuang/rotateQuotes/blob/master/index.html) for a sample implementation.
+See [index.html](https://github.com/JayHuang/rotateQuotes/blob/master/index.html) for sample implementation.
 
 Call rotateQuotes() on the items you wish to rotate:
 
@@ -14,9 +14,13 @@ Call rotateQuotes() on the items you wish to rotate:
 The plugin has 4 optional settings -- `speed`, `delay`, `hoverpause`, and `random`
 
 `speed` dictates the amount of time the transition takes
+
 `delay` dictates the amount of delay until the quote is replaced
+
 `hoverpause` makes the elements stop rotating when a mouse is hovered over the element
+
 `random` causes the quotes to rotate random order, not repeating until all quotes have been shown
+
 
 The default settings are:
 ```
