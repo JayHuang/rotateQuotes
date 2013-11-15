@@ -40,7 +40,7 @@ You can call rotateQuotes and pass in any or all of these settings to change the
     
 ###Live demo
 
-You can see the plugin live on my website's [about page](http://www.jayhuang.org/about).
+You can see the plugin live on my website's [about page](http://www.jayhuang.org/about) or [here](http://www.jayhuang.org/git/demo/rotateQuotes).
 
 #Copyright and license
 
