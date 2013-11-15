@@ -42,6 +42,6 @@ You can call rotateQuotes and pass in any or all of these settings to change the
 
 You can see the plugin live on my website's [about page](http://www.jayhuang.org/about) or [here](http://www.jayhuang.org/git/demo/rotateQuotes).
 
-#Copyright and license
+###Copyright and license
 
 Copyright 2013 Jay Huang under the MIT license.
