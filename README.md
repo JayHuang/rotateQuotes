@@ -21,6 +21,8 @@ The plugin has 4 optional settings -- `speed`, `delay`, `hoverpause`, and `rando
 
 `random` causes the quotes to rotate random order, not repeating until all quotes have been shown
 
+All settings are in ms (milliseconds).
+
 
 The default settings are:
 ```
@@ -34,10 +36,12 @@ You can call rotateQuotes and pass in any or all of these settings to change the
 
     $('.rotate-quote').rotateQuotes({speed: 300, delay: 1000, hoverpause: true, random: true});
     
+**Warning:** Setting `speed` too low (below 100) may cause unexpected behavior in certain browsers. `speed` also has to be lower than `delay` for quotes to appear in time.
+    
 ###Live demo
 
-You can see the plugin live on my website's [about page](http://www.jayhuang.org/about).
+You can see the plugin live on my website's [about page](http://www.jayhuang.org/about) or [here](http://www.jayhuang.org/git/demo/rotateQuotes).
 
-#Copyright and license
+###Copyright and license
 
 Copyright 2013 Jay Huang under the MIT license.
