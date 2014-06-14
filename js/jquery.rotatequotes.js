@@ -23,7 +23,7 @@
 
 		function startAnimation(){
 			animation();
-		    interval = setInterval(animation, settings.delay);
+			interval = setInterval(animation, settings.delay);
 		}
 
 		function pauseAnimation(){
