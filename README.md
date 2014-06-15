@@ -1,4 +1,4 @@
-#rotateQuotes
+#rotateQuotes [![Build Status](https://travis-ci.org/JayHuang/rotateQuotes.svg?branch=master)](https://travis-ci.org/JayHuang/rotateQuotes)
 
 jQuery plugin to rotate quotes or testimonials on a website (but feel free to use it for anything else!)
 
