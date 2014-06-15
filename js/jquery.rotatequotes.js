@@ -37,7 +37,7 @@
 		}
 
 		function getNextQuote() {
-			if(remainingQuotes.length == 0){
+			if(remainingQuotes.length === 0){
 				for(var i = 0; i < quotes.length; i++) { // Place numbers backwards so the quotes are popped in order
 					remainingQuotes[i] = quotes.length - (i + 1); 
 				}
@@ -70,5 +70,5 @@
 		delay: 5000,
 		hoverpause: false,
 		random: false
-	}
+	};
 })(jQuery);
